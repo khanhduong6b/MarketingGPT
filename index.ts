@@ -55,7 +55,7 @@ async function contentGPT(question: String) {
   return completion.data.choices[0].message?.content!;
 }
 
-const token = "6234234744:AAGMZzpMbnvu85Z7uENWYn2EvNY0RChj57Y";
+const token = process.env.TOKEN;
 
 async function sendTelegramMessage(chatId: string) {
   const text = await contentGPT("");
