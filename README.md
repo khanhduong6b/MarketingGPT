@@ -23,28 +23,32 @@ To install and set up the project, follow these steps:
 1. Make sure you have Node.js installed on your machine.
 
 2. Clone the project repository:
-   """
-   git clone https://github.com/your-username/MarketingGPT.git
-   """
+
+```
+  git clone https://github.com/your-username/MarketingGPT.git
+```
 
 3. Navigate to the project directory:
-   """
+
+```
    cd MarketingGPT
-   """
+```
 
 4. Install the required dependencies using npm:
-   """
+
+```
    npm install
-   """
+```
 
 5. Set up your Telegram bot by creating a new bot and obtaining an API token. Refer to the Telegram Bot API documentation for detailed instructions.
 
 6. Update the `index.ts` file with your Telegram bot API token and customize any additional settings or configurations as needed.
 
 7. Start the project:
-   """
+
+```
    npm start
-   """
+```
 
 You are now ready to use MarketingGPT to generate marketing posts and send them to users on Telegram.
 
